@@ -1,0 +1,35 @@
+{
+  "name": "coin-tracker",
+  "version": "1.0.0",
+  "description": "Online tracker for virtual coins",
+  "main": "server.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glebgubckin/coin-tracker.git"
+  },
+  "keywords": [
+    "js",
+    "coin",
+    "bitcoin"
+  ],
+  "author": "Gleb Gubckin <glebgubckin@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glebgubckin/coin-tracker/issues"
+  },
+  "homepage": "https://github.com/glebgubckin/coin-tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "node-notifier": "^9.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
