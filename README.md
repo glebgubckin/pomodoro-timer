@@ -1,4 +1,4 @@
-# pomodoro-timer
+# Pomodoro timer
 Простой таймер помодоро
 
 Выполен на HTML, CSS, Vanilla JS, Express JS. Сборзик проекта - Parcel
